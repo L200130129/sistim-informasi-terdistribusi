@@ -16,8 +16,17 @@ if ($error) {
 // memanggil RPC "getProd"
 $result = $client->call("getProd", array("category" => "profile"));
 
-//if ($result) {
+if ($result) {
     echo "Hasil: "  . $result;  // profile dalam bentuk STRING JSON
-//} else {
+    print("<hr>");
+    $ojson = json_decode($result);
+    print_r( $ojson );
+    print("<hr>");
+    echo "Nama: " . $ojson->nama ."<br>";
+    echo "NIM: " . $ojson->nim ."<br>";
+    echo "Alamat: " . $ojson->alamat ."<br>";
+    echo "IPK: " . $ojson->ipk ."<br>";
+
+} else {
   //  echo "ada kesalahan transmisi ... ";
-//}
+}
