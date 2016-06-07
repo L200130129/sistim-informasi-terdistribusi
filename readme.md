@@ -1,6 +1,13 @@
 # Sistem Informasi Terdistribusi (SID)
 
-Pada semester ini makakuliah SID menjelaskan tentang tekologi WEB SERVICES yang terdiri atas
+
+# Kisi-kisi UAS 2016 dapat di lihat dalam folder  MATERI-UAS 
+
+Link folder MATERI-UAS (https://github.com/handaga/sistim-informasi-terdistribusi/tree/master/MATERI-UAS)
+
+## --------------------------------------------------------------------------------------------
+
+# Pada semester ini makakuliah SID menjelaskan tentang tekologi WEB SERVICES yang terdiri atas
 
 1. SOAP
 1. XML-RPC
